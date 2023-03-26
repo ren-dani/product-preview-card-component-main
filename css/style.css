@@ -102,6 +102,9 @@ button {
     height: 50px;
     font-weight: 700;
 }
+button:focus {
+    background-color: hsl(160, 47%, 19%);
+}
 button img{
     display: inline;
     margin-right: .5rem;
@@ -117,6 +120,11 @@ button img{
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
     }
+}
+@media(min-width:1004px) {
+    .card {
+        margin: 8rem 25rem; 
+    }  
 }
 @media(min-width:1440px) {
     .card {
