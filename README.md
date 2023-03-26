@@ -10,7 +10,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- CSS 
 - CSS Grid
 - Mobile-first workflow
