@@ -49,6 +49,10 @@ button {
 }
 body {
     background: var(--Cream);
+    /* XY centering grid */
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
     /********
        CARD
@@ -123,11 +127,6 @@ button img{
 }
 @media(min-width:1004px) {
     .card {
-        margin: 8rem 25rem; 
-    }  
-}
-@media(min-width:1440px) {
-    .card {
-        margin: 8rem 30rem; 
+        width: 43em;
     }  
 }
